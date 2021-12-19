@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+html,body{
+ 
+  margin: 0;
+  padding: 0;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +40,293 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg{
+  background-color: white;
+  color: black !important;
+
+
+}
+.bgg{
+  background-color: #71DFE7!important  ;
+  color:white;
+}
+.bgg2{
+  background-color: #009DAE;
+  color:white;
+}
+
+.bgg3{
+  background-color: #52ff7f;
+  color: white;
+}
+.bgg4{
+  background-color: #C2FFF9;
+}
+.btn-outline-primary {
+  color: #009DAE !important;
+  border-color:  #009DAE !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color:  #009DAE !important  ;
+  border-color:   #009DAE !important;
+}
+
+.homeheader{
+  border-radius: 10px ; 
+}
+
+.nb .nav-link{
+  color: #009DAE !important
+}
+.nb .nav-link .active, .nb .nav-link:hover{
+  color: #009DAE !important;
+  font-weight: 600;
+}
+.hinput , .la{
+  background-color: #efeded !important;
+}
+.form-home{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 6px;
+}
+
+.textcontainer{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.hr{
+  width:20%;
+  margin-left: 40%;
+  color: #009DAE;
+  border-style: solid;
+  opacity: none;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.hometext{
+  width: 60%;
+  margin-left: 20%;
+
+}
+
+.service{
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  border-radius: 10px;
+}
+
+.homenav{
+  margin-bottom: 0;
+  text-align: center;
+  color: #7181e9;
+}
+
+.hfooter{
+  margin-top: 5% !important;
+}
+
+.footer-navlink{
+  color:white !important;
+   transition: transform .2s ease-in-out,color .2s ease-in-out;
+ 
+}
+.slider{
+  height: 350px;
+
+}
+
+.slider-heading{
+  text-align: center;
+  margin-top: 3%;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 4px;
+
+}
+
+.carou h2{
+  text-align: center;
+  padding-top: 15%;
+  padding-left:5px ;
+}
+
+.carou2 p {
+ padding:15px 10px 10px;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .carou2 p {
+    font-size: x-small;
+    
+  }
+  
+  .slider{
+    height: auto;
+  }
+
+  
+  .footer-navlink{
+    font-size: 14px;
+  }
+}
+.bg{
+  background-color: white ;
+ padding:20px;
+  border-radius: 10px;
+ 
+}
+
+.cl:hover {
+  box-shadow: 15px 0px 14px 0px rgb(32 33 36 / 28%);
+  border-radius: 35%;
+}
+
+.cr:hover{
+  box-shadow: -13px 0px 14px 0px rgb(32 33 36 / 28%);
+  border-radius: 35%;
+}
+
+
+
+.height {
+  height: 65vh
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  
+}
+
+
+
+.search input {
+  height: 50px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+ 
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px
+}
+
+.btn-primary{
+  border-color: #009DAE !important;
+  background-color:#009DAE !important ;
+  color:white;
+}
+.btn-primary:hover{
+  border-color:  #71DFE7 !important;
+  background-color:#71DFE7  !important;
+}
+
+
+.img-color{
+  background-color: 98BAE7;
+}
+
+/* /////////contact page///////// */
+ 
+.page-top{
+  margin-bottom: 5%;
+  text-align: center;
+  padding:4%;
+}
+
+.cform{ 
+ border-top-width: 15px;
+ border-top-color:  #009DAE ;
+ border-style:solid;
+ border-radius: 10px;
+ border-left: none;
+ border-bottom: none;
+ border-right: none;
+ border-top-left-radius: 0%;
+ padding :3%;
+}
+
+
+
+.footer-navlink:hover {
+  color :blue!important;
+  text-decoration: none;
+  transform: translateX(10px);
+}
+
+
+.border{
+  border-color: #d1c9c9d6;
+  border-width: 1px;
+  border-style: solid;
+}
+.d-p{
+  font-size: 14px;
+}
+.d-p2{
+  font-size: 12px;
+  margin-top: 0;;
+}
+
+
+.Text{
+  color:#6e7174;
+}
+
+.r-10{
+  border-radius: 10px;
+}
+
+.shadow{
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+.bgg5{
+  background-color: #68efd0;
+  color:white;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.tab-s.active{
+  color: #f8f9fa !important;
+    background-color: #009dae !important;
+}
+
+legend{
+  color: #009dae;
+    font-weight: 600;
+}
+
+.sbg{
+  background-image: url("./images/back-pattern.png");
+  background-color: #00ced11c;
+}
+
+.bgg6{
+  background-color: #00ae5e;
+  color:white;
+}
+
+.bgg7{
+  background-color: #198754!important;
+  color:white
 }
