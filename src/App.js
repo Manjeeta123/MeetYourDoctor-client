@@ -8,6 +8,7 @@ import Appointment from "./components/Appointment";
 import Contact from "./components/Contact";
 import DoctorApp from "./components/DoctorApp";
 import Emergency from "./components/Emergency";
+import Admin from "./components/Admin";
 import {Route,Switch} from "react-router-dom";
 import './App.css';
 
@@ -22,6 +23,9 @@ function App() {
  
  <Route exact path="/">
   <Home />
+ </Route>
+ <Route exact path="/Admin">
+  <Admin/>
  </Route>
  <Route exact path="/contact">
   <Contact />

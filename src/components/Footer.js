@@ -17,6 +17,9 @@ function Footer(){
              <div className="col-6 col-sm-3 ">   <NavLink className="nav-link footer-navlink" to="/registerSignin">Signin </NavLink>  </div>
              <div className="col-6 col-sm-3 ">   <NavLink className="nav-link footer-navlink" to="/about">About Us </NavLink>  </div>
              <div className="col-6 col-sm-3 ">   <NavLink className="nav-link footer-navlink" to="/contact">Contact Us </NavLink>  </div>
+             <div className="col-6 col-sm-3 ">   <NavLink className="nav-link footer-navlink" to="/Admin">Admin </NavLink>  </div>
+
+
 
 
 

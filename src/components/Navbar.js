@@ -30,6 +30,9 @@ function Navbar() {
       <li className="nav-item me-4">
         <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
       </li>
+      <li className="nav-item me-4">
+        <NavLink className="nav-link " to="/Admin">Admin</NavLink>
+      </li>
 
       <li>
      <NavLink  to="/signinReg" > <button type="button" className="btn btn-outline-primary">
