@@ -40,7 +40,7 @@ function back(){
                       
           <form>
           <fieldset>
-    <legend>Registration Form</legend> 
+           <legend>Registration Form</legend> 
             <div className="form-group mt-3">
               <label for="fname">First Name *</label>
               <input type="text" className="form-control" id="fname" placeholder="First Name" required />
